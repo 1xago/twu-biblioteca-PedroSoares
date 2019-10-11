@@ -30,6 +30,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.twu.biblioteca" />
       <recent name="Managers" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -53,21 +54,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.BibliotecaApp">
-    <configuration name="BibliotecaApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.twu.biblioteca.BibliotecaApp" />
-      <module name="biblioteca" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.twu.biblioteca.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ExampleTest.PresentWelcomeMessage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.LibraryManagerTest.TestFillDefaultUserList">
+    <configuration name="LibraryManagerTest.TestFillDefaultUserList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="biblioteca" />
       <extension name="coverage">
         <pattern>
@@ -76,14 +64,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.twu.biblioteca" />
-      <option name="MAIN_CLASS_NAME" value="com.twu.biblioteca.ExampleTest" />
-      <option name="METHOD_NAME" value="PresentWelcomeMessage" />
+      <option name="MAIN_CLASS_NAME" value="com.twu.biblioteca.LibraryManagerTest" />
+      <option name="METHOD_NAME" value="TestFillDefaultUserList" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ExampleTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LoggedOptionsMenuManagerTest.LoggedOptionsMenuManager" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="biblioteca" />
       <extension name="coverage">
         <pattern>
@@ -92,8 +80,56 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.twu.biblioteca" />
-      <option name="MAIN_CLASS_NAME" value="com.twu.biblioteca.ExampleTest" />
-      <option name="METHOD_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="com.twu.biblioteca.LoggedOptionsMenuManagerTest" />
+      <option name="METHOD_NAME" value="LoggedOptionsMenuManager" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoggedOptionsMenuManagerTest.TestMainMenuValidatorOptions" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="biblioteca" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.twu.biblioteca.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.twu.biblioteca" />
+      <option name="MAIN_CLASS_NAME" value="com.twu.biblioteca.LoggedOptionsMenuManagerTest" />
+      <option name="METHOD_NAME" value="TestMainMenuValidatorOptions" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NonLoggedOptionsMenuManagerTest.TestMainMenuValidatorOptions" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="biblioteca" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.twu.biblioteca.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.twu.biblioteca" />
+      <option name="MAIN_CLASS_NAME" value="com.twu.biblioteca.NonLoggedOptionsMenuManagerTest" />
+      <option name="METHOD_NAME" value="TestMainMenuValidatorOptions" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NonLoggedOptionsMenuManagerTest.TestStartOptionsMenu" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="biblioteca" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.twu.biblioteca.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.twu.biblioteca" />
+      <option name="MAIN_CLASS_NAME" value="com.twu.biblioteca.NonLoggedOptionsMenuManagerTest" />
+      <option name="METHOD_NAME" value="TestStartOptionsMenu" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -101,9 +137,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.BibliotecaApp" />
-        <item itemvalue="JUnit.ExampleTest.PresentWelcomeMessage" />
-        <item itemvalue="JUnit.ExampleTest.test" />
+        <item itemvalue="JUnit.LibraryManagerTest.TestFillDefaultUserList" />
+        <item itemvalue="JUnit.NonLoggedOptionsMenuManagerTest.TestMainMenuValidatorOptions" />
+        <item itemvalue="JUnit.NonLoggedOptionsMenuManagerTest.TestStartOptionsMenu" />
+        <item itemvalue="JUnit.LoggedOptionsMenuManagerTest.TestMainMenuValidatorOptions" />
+        <item itemvalue="JUnit.LoggedOptionsMenuManagerTest.LoggedOptionsMenuManager" />
       </list>
     </recent_temporary>
   </component>
@@ -117,7 +155,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1569922027384</updated>
-      <workItem from="1570536096659" duration="38032000" />
+      <workItem from="1570536096659" duration="42602000" />
     </task>
     <task id="LOCAL-00001" summary="1.1 view a welcome message, has a problem with the test since I cant add the library">
       <created>1569936126009</created>

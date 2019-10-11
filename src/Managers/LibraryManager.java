@@ -13,6 +13,9 @@ public class LibraryManager
 {
     private Library myLibrary;
 
+    public Library GetMyLibrary()
+    {return myLibrary;}
+
    public LibraryManager()
    {
        myLibrary = new Library();
