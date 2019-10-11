@@ -1,0 +1,12 @@
+Q1
+SELECT member.name FROM member,checkout_item,book WHERE book.id = checkout_item.book_id AND book.title = "The Hobbit"  AND checkout_item.member_id = member.id;
+Q2
+SELECT COUNT (id) FROM member WHERE id NOT IN (SELECT member_id FROM Checkout_item);
+Q3
+SELECT title FROM book WHERE id NOT IN (SELECT book_id FROM checkout_item Where book_id!= "") UNION SELECT title FROM movie WHERE id NOT IN (SELECT movie_id FROM checkout_item Where movie_id!= "");
+Q4
+INSERT INTO member VALUES (123,"Pedro Soares");
+INSERT INTO book Values (1234,"The Pragmatic Programmer");
+INSERT INTO checkout_item VALUES (123,1234,"");
+Q5
+SELECT name from member WHERE id In (SELECT member_id FROM checkout_item Group By member_id  HAVING COUNT(*)>1);
